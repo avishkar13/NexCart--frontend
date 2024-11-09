@@ -69,8 +69,9 @@ const Signup = () => {
 
   return (
     <>
-     
-      <div className=" bg-[url('/assets/bgg.jpg')] h-[100vh] bg-cover ">
+    <div className="absolute top-0 z-[-2] h-screen w-screen rotate-180 transform bg-white bg-[radial-gradient(60%_120%_at_50%_50%,hsla(0,0%,100%,0)_0,rgba(100,100,160,.8)_100%)]"></div>
+      
+      <div className="  h-[100vh] bg-cover ">
 
 
         <section className=" dark:bg-gray-900 py-32 md:py-0 ">
@@ -115,7 +116,7 @@ const Signup = () => {
           </div>
         </section>
       </div>
-
+  
     </>
   )
 }
