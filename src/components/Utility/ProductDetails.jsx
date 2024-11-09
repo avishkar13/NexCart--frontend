@@ -52,8 +52,8 @@ function ProductDetails() {
         <>
         <Navbar/>
             <div className="bg-slate-300">
-                <div className="min-h-screen flex md:items-center justify-center py-8 md:py-8">
-                    <div className="md:w-[90vw] lg:w-[80vw] h-[90vh] shadow-slate-700 md:h-[80vh] border-2 border-slate-300 shadow-2xl flex flex-col md:flex-row md:gap-6 justify-center md:justify-evenly p-4 rounded-3xl">
+                <div className="min-h-screen flex md:items-center justify-center py-24 md:py-8">
+                    <div className=" w-[95vw] md:w-[90vw] lg:w-[80vw] h-[90vh] shadow-slate-700 md:h-[80vh] border-2 border-slate-300 shadow-2xl flex flex-col md:flex-row md:gap-6 justify-center md:justify-evenly p-4 rounded-3xl">
                         <div className="flex items-center justify-center md:w-[50%] h-[60%] md:h-[100%]">
                             <img className="w-full h-[90%] md:h-[68vh] rounded-lg mb-4" src={product.src} alt="Product" />
                         </div>
