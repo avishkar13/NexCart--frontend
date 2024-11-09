@@ -71,7 +71,7 @@ const Signup = () => {
     <>
     
       
-      <div className=" bg-slate-400 h-[100vh] ">
+      <div className=" bg-[url('/assets/bgg.jpg')] h-[100vh] bg-cover ">
 
 
         <section className=" py-16 md:py-0 ">
@@ -79,33 +79,33 @@ const Signup = () => {
 
             <div className="w-full border-2 mix-blend-multiply rounded-xl shadow-2xl shadow-slate-700 md:mt-0 sm:max-w-md xl:p-0">
               <div className="p-6 space-y-4 md:space-y-6 sm:p-8">
-                <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl dark:text-white">
+                <h1 className="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl ">
                   Create an Account
                 </h1>
                 <form className="space-y-4 md:space-y-6" onSubmit={handleSignup}>
                   <div>
-                    <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Email</label>
-                    <input type="email" name="email" id="email" className="bg-gray-100 border-2 border-gray-500 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name@company.com" required={true} autoComplete='true'
+                    <label htmlFor="email" className="block mb-2 text-sm font-medium text-gray-900 ">Email</label>
+                    <input type="email" name="email" id="email" className="bg-gray-100 border-2 border-gray-500 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 " placeholder="name@company.com" required={true} autoComplete='true'
                       value={email}
                       onChange={(e) => setEmail(e.target.value)} />
                   </div>
                   <div>
-                    <label htmlFor="username" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"> Username</label>
-                    <input type="username" name="username" id="username" className="bg-gray-100 border-2 border-gray-500 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Username" required={true} autoComplete='true'
+                    <label htmlFor="username" className="block mb-2 text-sm font-medium text-gray-900 "> Username</label>
+                    <input type="username" name="username" id="username" className="bg-gray-100 border-2 border-gray-500 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 " placeholder="Username" required={true} autoComplete='true'
                       value={username}
                       onChange={(e) => setUsername(e.target.value)} />
                   </div>
                   <div>
-                    <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Password</label>
-                    <input type="password" name="password" id="password" placeholder="Password" className="bg-gray-100 border-2 border-gray-500 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" required={true}
+                    <label htmlFor="password" className="block mb-2 text-sm font-medium text-gray-900 ">Password</label>
+                    <input type="password" name="password" id="password" placeholder="Password" className="bg-gray-100 border-2 border-gray-500 text-gray-900 rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5 " required={true}
                       value={password}
                       onChange={(e) => setPassword(e.target.value)} />
                   </div>
 
                   <div className='flex flex-col justify-center items-center gap-4'>
-                    <button type="submit" className="md:w-1/4  text-black border-2 border-slate-600 hover:bg-gray-300 focus:ring-2 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center dark:bg-primary-600 dark:hover:bg-primary-700 dark:focus:ring-primary-800">Sign Up</button>
+                    <button type="submit" className="md:w-1/4  text-black border-2 border-slate-600 hover:bg-gray-300 focus:ring-2 focus:outline-none focus:ring-primary-300 font-medium rounded-lg text-sm px-5 py-2.5 text-center ">Sign Up</button>
                     <p className="text-sm text-slate-800">
-                      Already have an Account? <Link to="/login" className="font-semibold text-primary-600 hover:underline dark:text-primary-500">Login</Link>
+                      Already have an Account? <Link to="/login" className="font-semibold text-primary-600 hover:underline ">Login</Link>
                     </p>
                   </div>
                   {error && <p style={{ color: 'red' }}>{error}</p>}
