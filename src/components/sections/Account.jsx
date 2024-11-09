@@ -5,7 +5,7 @@ import Navbar from '../Utility/Navbar';
 import { toast } from 'react-toastify';
 
 // Set Axios default base URL
-axios.defaults.baseURL = 'http://localhost:5000/api/auth';
+axios.defaults.baseURL = 'https://nexcart-backend.vercel.app/api/auth';
 
 const Account = () => {
   const navigate = useNavigate();
@@ -109,7 +109,7 @@ const Account = () => {
     if (!confirmed) return;
   
     try {
-      const response = await axios.delete('http://localhost:5000/api/auth/delete-account', { // Adjust API path if needed
+      const response = await axios.delete('/delete-account', { // Adjust API path if needed
         headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
       });
       
