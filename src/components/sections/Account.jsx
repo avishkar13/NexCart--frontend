@@ -5,7 +5,7 @@ import Navbar from '../Utility/Navbar';
 import { toast } from 'react-toastify';
 
 // Set Axios default base URL
-axios.defaults.baseURL = 'https://nexcart-backend.vercel.app/api/auth';
+axios.defaults.baseURL = 'https://nexcart-backend.onrender.com/api/auth';
 
 const Account = () => {
   const navigate = useNavigate();

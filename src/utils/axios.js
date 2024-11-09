@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create an Axios instance
 const axiosInstance = axios.create({
-  baseURL: 'https://nexcart-backend.vercel.app/',  
+  baseURL: 'https://nexcart-backend.onrender.com',  
 });
 
 // Add a request interceptor to set the Authorization header dynamically
