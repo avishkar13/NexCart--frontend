@@ -168,7 +168,7 @@ const Account = () => {
         <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
           <h3 className="text-2xl font-medium mb-4">User Info</h3>
           <img
-            src={profilePicture || "/src/assets/userdemo.webp"}
+            src={profilePicture || "/assets/userdemo.webp"}
             alt="Profile"
             className="mt-4 mb-4 rounded-full h-40 w-40"
           />

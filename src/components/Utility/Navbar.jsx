@@ -28,7 +28,7 @@ function Navbar() {
           <div className="w-1/3 flex justify-start items-center lg:justify-end">
             <img
               className="block md:hidden cursor-pointer"
-              src="/src/assets/hamburger.svg"
+              src="/assets/hamburger.svg"
               alt="hamburger"
               onClick={toggleMenu}
             />
@@ -48,8 +48,8 @@ function Navbar() {
           </div>
           <div className="w-1/3 flex justify-end lg:justify-start">
             <ul className="flex gap-2 md:gap-4  text-lg font-semibold font-mono md:px-20">
-              <Link to="/cart"><img className="h-6 md:h-8" src="/src/assets/cart.png" alt="Cart" /></Link>
-              <Link to="/account"><img className="h-6 md:h-8" src="/src/assets/user.png" alt="User" /></Link>
+              <Link to="/cart"><img className="h-6 md:h-8" src="/assets/cart.png" alt="Cart" /></Link>
+              <Link to="/account"><img className="h-6 md:h-8" src="/assets/user.png" alt="User" /></Link>
             </ul>
           </div>
         </nav>

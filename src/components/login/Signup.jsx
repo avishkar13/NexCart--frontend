@@ -70,7 +70,7 @@ const Signup = () => {
   return (
     <>
      
-      <div className=" bg-[url('/src/assets/bgg.jpg')] h-[100vh] bg-cover ">
+      <div className=" bg-[url('/assets/bgg.jpg')] h-[100vh] bg-cover ">
 
 
         <section className=" dark:bg-gray-900 py-32 md:py-0 ">

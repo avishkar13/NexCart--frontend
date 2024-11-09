@@ -64,7 +64,7 @@ const Login = () => {
 
   return (
     <>
-      <div className=" bg-[url('/src/assets/bgg.jpg')] bg-cover h-[100vh] ">
+      <div className=" bg-[url('/assets/bgg.jpg')] bg-cover h-[100vh] ">
 
 
         <section className=" dark:bg-gray-900 py-32 md:py-0 ">
