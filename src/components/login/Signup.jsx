@@ -71,10 +71,10 @@ const Signup = () => {
     <>
     
       
-      <div className=" bg-slate-400  h-[100vh] ">
+      <div className=" bg-slate-400 h-[100vh] ">
 
 
-        <section className=" dark:bg-gray-900 py-32 md:py-0 ">
+        <section className=" py-16 md:py-0 ">
           <div className="flex flex-col items-center justify-center px-6 py-8 mx-auto md:h-screen lg:py-0">
 
             <div className="w-full border-2 mix-blend-multiply rounded-xl shadow-2xl shadow-slate-700 md:mt-0 sm:max-w-md xl:p-0">
