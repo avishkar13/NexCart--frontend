@@ -16,6 +16,7 @@ import Account from './components/sections/Account'
 import Checkout from './components/Utility/Checkout';
 import ProductDetails from './components/Utility/ProductDetails';
 import ProtectedRoute from './utils/protectedRoute';
+import OrderConfirmation from './components/Utility/OrderConfirmation';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
@@ -106,6 +107,15 @@ const router = createBrowserRouter([
     element: (
       <ProtectedRoute>
         <Checkout />
+      </ProtectedRoute>
+    ),
+    errorElement: <ErrorPage />,
+  },
+  {
+    path: "/order-confirmation",
+    element: (
+      <ProtectedRoute>
+        <OrderConfirmation  />
       </ProtectedRoute>
     ),
     errorElement: <ErrorPage />,
