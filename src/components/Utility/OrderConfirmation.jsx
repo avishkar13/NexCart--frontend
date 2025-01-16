@@ -52,7 +52,7 @@ function OrderConfirmation() {
             <ul>
               {cart.map((item) => (
                 <li key={item.id} className="flex items-center justify-between py-2 border-b">
-                  <div className="flex items-center gap-10">
+                  <div className="flex items-center gap-4  md:gap-10">
                     <img className="w-20 h-20 object-cover rounded-lg" src={item.src} alt={item.name} />
                     <span>{item.name} x {item.quantity}</span>
                   </div>
